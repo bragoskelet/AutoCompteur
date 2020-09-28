@@ -13,5 +13,6 @@ public class Main {
     public static void main(String[] args) {
         // Ecrire ici vos tests personnels
         System.out.println("Ecrire vos tests personnels dans edu.uha.miage.Main");
+        AutoCompteur a= new AutoCompteur();
     }
 }
