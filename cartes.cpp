@@ -15,7 +15,7 @@ const int taille_pop=30;
 double randProba()
 {
     double r=static_cast<double>(rand()) / RAND_MAX; //entre 0 et 1
-    return r;
+    return r+0.0001;
 }
 
 void initIndividu(vector<int>& individu)
